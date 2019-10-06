@@ -4,6 +4,7 @@ Use the commands below to build the image and enter into interactive mode and ru
 
 ```bash
 git clone git@github.com:brycehemme/mod_authnz_jwt_docker.git
+cd mod_authnz_jwt_docker
 
 # build the image
 docker build -t mod_authnz_jwt .
